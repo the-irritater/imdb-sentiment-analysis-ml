@@ -1,5 +1,4 @@
- 
-# Sentiment Analysis on IMDb Movie Reviews
+ # Sentiment Analysis on IMDb Movie Reviews
 
 # Step 1: Import Libraries
 import pandas as pd
@@ -24,7 +23,7 @@ nltk.download('stopwords')
 nltk.download('wordnet')
 
 # Step 3: Load Dataset
-df = pd.read_csv("/data/imdb_reviews.csv", engine='python')  # Ensure your file is in the same directory
+df = pd.read_csv("C:\\Users\\Sanman\\Downloads\\data\\imdb_reviews.csv", engine='python')  # Ensure your file is in the same directory
 print("Initial shape:", df.shape)
 print(df.head())
 
